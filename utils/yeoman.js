@@ -55,11 +55,11 @@ let getAllSettingsFromComponentName = (componentName, style) => {
       suffix: styleSettings.suffix
     },
     component: {
-      webpackPath: `components/${componentPartPath}/${componentBaseName}Component.js`,
+      webpackPath: `components/${componentPartPath}/${componentBaseName}.js`,
       path: `${componentPath.path}/${componentPartPath}/`,
-      fileName: `${componentBaseName}Component.js`,
-      className: `${componentBaseName}Component`,
-      displayName: `${componentFullName}Component`,
+      fileName: `${componentBaseName}.js`,
+      className: `${componentBaseName}`,
+      displayName: `${componentFullName}`,
       suffix: '.js'
     },
     test: {
